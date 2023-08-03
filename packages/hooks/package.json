@@ -1,0 +1,24 @@
+{
+  "name": "@rake7h/react-hooks",
+  "version": "0.1.0",
+  "author": "Rakesh <hi@rake7h.com>",
+  "description": "React custom hooks",
+  "main": "dist/rake7h-react-hooks.cjs.js",
+  "module": "dist/rake7h-react-hooks.esm.js",
+  "types": "dist/rake7h-react-hooks.cjs.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rake7h/react-hooks.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "devDependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}

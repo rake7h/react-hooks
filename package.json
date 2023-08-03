@@ -1,0 +1,44 @@
+{
+  "name": "react-hooks",
+  "private": true,
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "postinstall": "preconstruct dev",
+    "pkg:build": "preconstruct build",
+    "pkg:init": "preconstruct init",
+    "pkg:fix": "preconstruct fix",
+    "pkg:validate": "preconstruct validate",
+    "changeset:add": "changeset"
+  },
+  "author": "Rakesh <hi@rake7h.com>",
+  "keywords": [
+    "hook",
+    "react",
+    "useApiCall",
+    "react",
+    "react-component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rake7h/react-hooks.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@preconstruct/cli": "^2.8.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@changesets/cli": "^2.26.2",
+    "typescript": "^5.1.6"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
